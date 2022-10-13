@@ -1,0 +1,75 @@
+body{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #eeeeee;
+}
+h1{
+    text-align: center;
+    margin: 50px 0px ;
+    font-weight: 500;
+    text-shadow: 3px 1px 0px #44CFFC;
+}
+
+#carte_Section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carte {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 35px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.184);
+background-color: #FFFF;}
+.img_couverture {
+    width: 100%;
+    height: 250px;
+}
+
+.title_carte {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 70px;
+}
+
+.start-up_section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+
+.img_start-up {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.name_start-up {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 85%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 8px;
+}
+
+
+
+button {
+    display: block;
+    margin: 25px auto;
+}
